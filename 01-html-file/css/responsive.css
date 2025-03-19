@@ -1,0 +1,977 @@
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /*
+=== About One Sec ===
+*/
+    .about-one-img .about-one-background {
+        top: -100px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .about-one-sec .about-one-bg {
+        background-position: bottom right;
+        background-size: auto;
+        opacity: .05;
+    }
+
+    .about-one-img {
+        padding-right: 0;
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-one-img img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-one-content {
+        padding-top: 60px;
+        padding-left: 90px;
+        padding-bottom: 93px;
+    }
+
+    .about-one-content .pattern {
+        top: 0;
+        left: -350px;
+        bottom: 0;
+        right: -50000px;
+    }
+
+    .about-big-text {
+        top: 240px;
+        left: -175px;
+    }
+
+    /*
+=== About Two Sec ===
+*/
+    .about-two-left .top-title h2 {
+        font-size: 24px;
+    }
+
+    /*
+=== Counter Section ===
+*/
+    .single-counter-part h3.title {
+        font-size: 22px;
+    }
+
+    /*
+=== Team Details Section ===
+*/
+    .team-details-contant-block {
+        padding-right: 0;
+    }
+
+    /*
+=== Why Choose One Section ===
+*/
+    .why-choose-one-sec {
+        padding-top: 91px;
+        padding-bottom: 304px;
+    }
+
+    .choose-one-content {
+        padding-top: 0px;
+    }
+
+    .choose-one-content ul li:last-child {
+        padding-bottom: 28px;
+    }
+
+    .video-box {
+        max-width: 700px;
+        float: none;
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+
+    /*
+=== Featured One Section ===
+*/
+    .featured-one-sec {
+        padding-top: 100px;
+    }
+
+    .featured-one-sec .featured-bg .left {
+        display: none;
+    }
+
+    .featured-one-left-box {
+        background-color: rgba(255, 255, 255, 0.99);
+        max-width: 100%;
+        border: 10px solid #e2e2e1;
+        padding-left: 45px;
+        padding-right: 50px;
+        padding-top: 60px;
+        padding-bottom: 74px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .featured-one-sec .featured-bg .right {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+
+    .case-evulation {
+        padding: 0;
+        padding-top: 52px;
+        padding-bottom: 100px;
+    }
+
+    /*
+=== Case One Section ===
+*/
+    .case-one-box .btn-block .prev-btn {
+        display: none;
+    }
+
+    .case-one-box .btn-block .next-btn {
+        display: none;
+    }
+
+    /*
+===  Brand Type1 Section ===
+*/
+    .brand-type1-bg {
+        z-index: 1;
+    }
+
+    .brand-type1-bg:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-color: rgba(48, 55, 61, 0.90);
+        z-index: 2;
+    }
+
+    .brand-type1-left {
+        padding: 0px 0 50px;
+    }
+
+    .brand-type1-bg .left {
+        display: none;
+    }
+
+    .brand-type1-bg .right {
+        width: 100%;
+    }
+
+    .brand-right-layout {
+        margin-right: 0;
+    }
+
+    /*
+===  Why Choose Two Section ===
+*/
+    .single-img-box {
+        margin-bottom: 50px;
+    }
+
+    .good-at {
+        margin-bottom: 36px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*
+=== Header Sec ===
+*/
+    .top-sec .phone {
+        float: right;
+    }
+
+    .top-sec .top-button {
+        float: right;
+    }
+
+    /*
+=== About One Sec ===
+*/
+    .about-one-img .about-one-background {
+        top: -100px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .about-one-sec .about-one-bg {
+        background-position: bottom right;
+        background-size: auto;
+        opacity: .05;
+    }
+
+    .about-one-img {
+        padding-right: 0;
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-one-img img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-one-content {
+        padding-top: 60px;
+        padding-left: 90px;
+        padding-bottom: 93px;
+    }
+
+    .about-one-content .pattern {
+        top: 0;
+        left: -350px;
+        bottom: 0;
+        right: -50000px;
+    }
+
+    .about-big-text {
+        top: 240px;
+        left: -175px;
+    }
+
+    /*
+=== Blog One Section Style ===
+*/
+    .blog-one-sec {
+        padding: 90px 0 50px;
+    }
+
+    .single-blog1-item {
+        max-width: 500px;
+        width: 100%;
+        margin: 0px auto 44px;
+    }
+
+    /*
+===  Footer One Section Style  ===
+*/
+    .single-footer-widget.widget1 {
+        margin-bottom: 36px;
+    }
+
+    .single-footer-widget.widget2 {
+        margin-bottom: 36px;
+    }
+
+    /*
+=== About Two Section ===
+*/
+    .about-two-sec {
+        padding: 100px 0 100px;
+    }
+
+    .single-featured-two {
+        margin-bottom: 50px;
+    }
+
+    .about-two-single-item {
+        margin-top: 50px;
+    }
+
+    .about-two-left .about-tow-btn {
+        line-height: 0;
+    }
+
+    /*
+=== Team Two Section ===
+*/
+    .team-two-sec {
+        padding-bottom: 60px;
+    }
+
+    .single-team-two-item {
+        margin-bottom: 32px;
+    }
+
+    /*
+=== Counter Section ===
+*/
+    .counter-sec {
+        padding-bottom: 60px;
+    }
+
+    .single-counter-part {
+        margin-bottom: 33px;
+    }
+
+    /*
+=== Testimonial Two Section ===
+*/
+    .testimonial-two-sec {
+        padding-bottom: 77px;
+    }
+
+    .how-do-content {
+        padding-left: 0;
+        margin-top: 43px;
+    }
+
+    /*
+=== Blog Two Section ===
+*/
+    .blog-two-img {
+        margin-bottom: 30px;
+    }
+
+    /*
+=== Blog Page Type1 Section ===
+*/
+    .blog-page-type1 {
+        padding-bottom: 100px;
+    }
+
+    /*
+=== Blog Page Type2 Section ===
+*/
+    .main-sibebar {
+        margin-bottom: 50px;
+    }
+
+    .blog-pg-type2-pagination .pg-pagination {
+        text-align: center;
+    }
+
+    /*
+=== Blog Single Section ===
+*/
+    .blog-single-sec {
+        padding-bottom: 40px;
+    }
+
+    .blog-single-wraper {
+        margin-bottom: 30px;
+    }
+
+    /*
+=== Recent Cases Section ===
+*/
+    .recent-cases-sec {
+        padding: 90px 0 70px;
+    }
+
+    .single-recent-cases {
+        margin-bottom: 30px;
+    }
+
+    .service-details-desc {
+        margin-top: 80px;
+    }
+
+    /*
+=== Team Details Section ===
+*/
+    .team-details-wedget {
+        margin-bottom: 50px;
+    }
+
+    .team-details-contant-block {
+        padding-right: 0;
+    }
+
+
+    /*
+=== Why Choose One Section ===
+*/
+    .why-choose-one-sec {
+        padding-top: 91px;
+        padding-bottom: 304px;
+    }
+
+    .choose-one-big-text {
+        font-size: 80px;
+        bottom: -15px;
+    }
+
+    .choose-one-content {
+        padding-top: 0px;
+    }
+
+    .choose-one-content ul li:last-child {
+        padding-bottom: 28px;
+    }
+
+    .video-box {
+        max-width: 600px;
+        float: none;
+        margin-top: 80px;
+        margin-left: 60px;
+    }
+
+    /*
+=== Featured One Section ===
+*/
+    .featured-one-sec {
+        padding-top: 100px;
+    }
+
+    .featured-one-sec .featured-bg .left {
+        display: none;
+    }
+
+    .featured-one-left-box {
+        background-color: rgba(255, 255, 255, 0.99);
+        max-width: 100%;
+        border: 10px solid #e2e2e1;
+        padding-left: 45px;
+        padding-right: 50px;
+        padding-top: 60px;
+        padding-bottom: 74px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .featured-one-sec .featured-bg .right {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+
+    .case-evulation {
+        padding: 0;
+        padding-top: 52px;
+        padding-bottom: 100px;
+    }
+
+    /*
+=== Case One Section ===
+*/
+    .case-one-box .btn-block .prev-btn {
+        display: none;
+    }
+
+    .case-one-box .btn-block .next-btn {
+        display: none;
+    }
+
+    /*
+===  Brand Type1 Section ===
+*/
+    .brand-type1-bg {
+        z-index: 1;
+    }
+
+    .brand-type1-bg:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-color: rgba(48, 55, 61, 0.90);
+        z-index: 2;
+    }
+
+    .brand-type1-left {
+        max-width: 450px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px 0 50px;
+        text-align: center;
+    }
+
+    .brand-type1-bg .left {
+        display: none;
+    }
+
+    .brand-type1-bg .right {
+        width: 100%;
+    }
+
+    .brand-right-layout {
+        margin-right: 0;
+    }
+
+    .brand-right-layout .brand-item li {
+        display: block;
+        float: none;
+        margin: 0 0px 30px;
+        text-align: center;
+    }
+
+    /*
+===  Why Choose Two Section ===
+*/
+    .good-at {
+        margin-bottom: 36px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+    /*
+=== header style  ===
+*/
+    .top-sec .email-info {
+        padding: 26px 0px 10px;
+        text-align: center;
+    }
+
+    .top-sec .phone {
+        padding: 0;
+        text-align: center;
+    }
+
+    .top-sec .social-links1 {
+        padding: 13px 0px 20px;
+        text-align: center;
+    }
+
+    .top-sec .top-button {
+        padding: 0px 0px 30px;
+        text-align: center;
+    }
+
+
+    /*
+=== About One Sec ===
+*/
+    .about-one-img .about-one-background {
+        top: -100px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .about-one-sec .about-one-bg {
+        background-position: bottom right;
+        background-size: auto;
+        opacity: .05;
+    }
+
+    .about-one-img {
+        padding-right: 0;
+        max-width: 740px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .about-one-img img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about-one-content {
+        padding-top: 60px;
+        padding-left: 90px;
+        padding-bottom: 93px;
+    }
+
+    .about-one-content .title h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+
+    .about-one-content .pattern {
+        top: 0;
+        left: -350px;
+        bottom: 0;
+        right: -50000px;
+    }
+
+    .about-big-text {
+        top: 230px;
+        left: -175px;
+    }
+
+    /*
+=== Blog One Section Style ===
+*/
+    .blog-one-sec {
+        padding: 90px 0 50px;
+    }
+
+    .single-blog1-item {
+        max-width: 500px;
+        width: 100%;
+        margin: 0px auto 44px;
+    }
+
+    /*
+===  Footer One Section Style  ===
+*/
+    .single-footer-widget.widget1 {
+        margin-bottom: 48px;
+    }
+
+    .single-footer-widget.widget2 {
+        margin-bottom: 23px;
+    }
+
+    .single-footer-widget.widget3 {
+        margin-bottom: 13px;
+    }
+
+    /*
+=== About Two Sec ===
+*/
+    .about-two-sec {
+        padding: 100px 0 100px;
+    }
+
+    .single-featured-two {
+        margin-bottom: 50px;
+    }
+
+    .about-two-single-item {
+        margin-top: 50px;
+    }
+
+    .about-two-left .about-tow-btn {
+        line-height: 0;
+    }
+
+    /*
+=== Team Two Section ===
+*/
+    .team-two-sec {
+        padding-bottom: 60px;
+    }
+
+    .single-team-two-item {
+        margin-bottom: 32px;
+    }
+
+    /*
+=== Counter Section ===
+*/
+    .counter-sec {
+        padding-bottom: 60px;
+    }
+
+    .single-counter-part {
+        margin-bottom: 33px;
+    }
+
+    /*
+=== Testimonial Two Section ===
+*/
+    .testimonial-two-sec {
+        padding-bottom: 77px;
+    }
+
+    .how-do-content {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    /*
+=== Blog Two Section ===
+*/
+    .blog-two-img {
+        margin-bottom: 30px;
+    }
+
+    /*
+=== Blog Page Type1 Section ===
+*/
+    .blog-page-type1 {
+        padding-bottom: 100px;
+    }
+
+    /*
+=== Blog Page Type2 Section ===
+*/
+    .main-sibebar {
+        margin-bottom: 50px;
+    }
+
+    .blog-pg-type2-pagination .pg-pagination {
+        text-align: center;
+    }
+
+    .blog-pg-type2-pagination .pg-pagination li.previous {
+        margin-right: 28px;
+    }
+
+    .blog-pg-type2-pagination .pg-pagination li.next {
+        margin-left: 29px;
+    }
+
+    /*
+=== Blog Single Section ===
+*/
+    .blog-single-sec {
+        padding-bottom: 40px;
+    }
+
+    .blog-single-wraper {
+        margin-bottom: 30px;
+    }
+
+    /*
+=== Recent Cases Section ===
+*/
+    .recent-cases-sec {
+        padding: 90px 0 70px;
+    }
+
+    .single-recent-cases {
+        margin-bottom: 30px;
+    }
+
+    /*
+=== Single Service Section ===
+*/
+    .service-details-desc {
+        margin-top: 80px;
+    }
+
+    /*
+=== Team Details Section ===
+*/
+    .team-details-wedget {
+        margin-bottom: 50px;
+    }
+
+    .team-details-contant-block {
+        padding-right: 0;
+    }
+
+    .team-details-contant-block .button-block .button.btn-left-mr30 {
+        margin-bottom: 20px;
+    }
+
+    /*
+=== Why Choose One Section ===
+*/
+    .why-choose-one-sec {
+        padding-top: 91px;
+        padding-bottom: 240px;
+    }
+
+    .choose-one-big-text {
+        display: none;
+    }
+
+    .choose-one-content {
+        padding-top: 0px;
+    }
+
+    .choose-one-content ul li:last-child {
+        padding-bottom: 28px;
+    }
+
+    .video-box {
+        max-width: 400px;
+        float: none;
+        margin-top: 26px;
+        margin-left: 0px;
+    }
+
+    .video-box .pattern {
+        display: none;
+    }
+
+    /*
+=== Featured One Section ===
+*/
+    .featured-one-sec {
+        padding-top: 100px;
+    }
+
+    .featured-one-sec .featured-bg .left {
+        display: none;
+    }
+
+    .featured-one-left-box {
+        background-color: rgba(255, 255, 255, 0.99);
+        max-width: 100%;
+        border: 10px solid #e2e2e1;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 60px;
+        padding-bottom: 74px;
+        margin: 0 auto;
+        z-index: 1;
+    }
+
+    .featured-one-sec .featured-bg .right {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+
+    .case-evulation {
+        padding: 0;
+        padding-top: 52px;
+        padding-bottom: 100px;
+    }
+
+    /*
+=== Case One Section ===
+*/
+    .case-one-item .image-box .case-overly {
+        max-width: 265px;
+    }
+
+    .case-one-box .btn-block .prev-btn {
+        display: none;
+    }
+
+    .case-one-box .btn-block .next-btn {
+        display: none;
+    }
+
+    /*
+===  Brand Type1 Section ===
+*/
+    .brand-type1-bg {
+        z-index: 1;
+    }
+
+    .brand-type1-bg:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: "";
+        background-color: rgba(48, 55, 61, 0.90);
+        z-index: 2;
+    }
+
+    .brand-type1-left {
+        padding: 0px 0 50px;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .brand-type1-bg .left {
+        display: none;
+    }
+
+    .brand-type1-bg .right {
+        width: 100%;
+    }
+
+    .brand-right-layout {
+        margin-right: 0;
+    }
+
+    .brand-right-layout .brand-item li {
+        display: block;
+        float: none;
+        margin: 0 0px 30px;
+        text-align: center;
+    }
+
+    /*
+=== Page Title Section ===
+*/
+    .page-title-sec {
+        padding: 125px 0 126px;
+    }
+
+    .page-title-contant {
+        flex-direction: column;
+    }
+
+    .page-title-contant .title {
+        margin-bottom: 15px;
+    }
+
+    /*
+===  Why Choose Two Section ===
+*/
+    .good-at {
+        margin-bottom: 36px;
+    }
+
+
+
+
+}
